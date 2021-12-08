@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: 0.5s ease;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: #ebeeef;
+}
+.content-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 670px;
+}
+.header{
+    height: 180px;
+    background: url("../img/bg.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 5px gray;
+}
+.header .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(54,84,99,.7);
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.header .overlay h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form-box{
+    background: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 0px 5px gray;
+}
+.form{
+    padding: 60px 100px;
+}
+.name , .password{
+    margin: 45px 0px;
+    display: flex;
+    letter-spacing: 1px;
+}
+label{color: gray;font-size: 18px;flex-basis: 25%;line-height: 30px;}
+.name input , .password input{
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid gray;
+    flex-basis: 75%;
+    font-size: 18px;
+    color: #555;
+}
+.name input:focus , .password input:focus{
+    outline: none;
+}
+input:hover{}
+.password{
+    margin: 10px 0px;
+}
+.remember{
+    margin: 6px 0px;
+}
+input[type=checkbox]{}
+input[type="submit"]{
+	background: #57b846;
+	border: none;
+	padding: 15px 40px;
+	color: white;
+	border-radius: 30px;
+	font-size: 20px;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+input[type=submit]:hover{
+    background: #333;
+}
+.submit{
+    text-align: center;
+}
+::placeholder{
+	color: #55555596;
+}
+label[for="remember"]{
+	font-size: 14px;
+}
