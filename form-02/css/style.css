@@ -80,8 +80,8 @@
 }
 .content-box .form-box .content form .terms input{height: 10px;width: 10px;-webkit-appearance: none;-moz-appearance: none;-o-appearance: none;appearance: none;border: 2px solid #ff9a9c;border-radius: 20px;outline: none;transition-duration: 0.3s;background-color: transparent;cursor: pointer;}
 .content-box .form-box .content form .terms input:checked{
-	border: 1px solid orange;
-    background-color: orange;
+	border: 1px solid pink;
+    background-color: pink;
 }
 .content-box .form-box .content form .terms label{
     color: gray;
